@@ -2,18 +2,23 @@
   font-family: "quicksand";
   src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf)
 }
+
 * {
   font-family: "quicksand"
 }
-main {
+
+body {
   color: #04384A;
 }
+
 footer {
   padding: 45px 175px
 }
+
 h1 {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+  padding-top: 160px;
   margin: 0 auto;
   font-family: Quicksand;
   font-size: 20px;
@@ -23,6 +28,7 @@ h1 {
   letter-spacing: 0.25px;
   text-align: center
 }
+
 h2 {
 
   font-family: Quicksand;
@@ -32,6 +38,7 @@ h2 {
   line-height: 50px;
   letter-spacing: 0.25px;
 }
+
 h3 {
   font-family: Quicksand;
   font-size: 20px;
@@ -41,6 +48,7 @@ h3 {
   letter-spacing: 0.25px;
   text-align: left;
 }
+
 h4 {
   font-family: Quicksand;
   font-size: 30px;
@@ -49,6 +57,7 @@ h4 {
   line-height: 50px;
   letter-spacing: 0.25px;
 }
+
 h5 {
   text-align: center;
   padding-top: 100px;
@@ -71,31 +80,52 @@ p {
   line-height: 38px;
   letter-spacing: 0.25px;
 }
+
 #topnavbar {
-  color:#DB003A;
+  color: #DB003A;
+  background-color: rgba(255,225,225,0.3);
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
-  max-width: 1280px;
+  max-width: 2000px;
   margin: 0 auto;
-  padding-top: 32px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #navbarright {
   display: flex;
-  color:#DB003A;
+  background-color: rgba(255, 255, 255, 0);
+  color: #DB003A;
   justify-content: space-between;
   width: 300px;
 }
-nav a{
+
+nav a {
   color: #DB003A;
   text-decoration: none;
 }
+
 #button1 {
   color: #DB003A;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "quicksand";
+  src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.25px;
+  border: 0.17rem solid #DB003A;
+  border-radius: 5px;
+}
+
+#button2 {
+  color: #DB003A;
+  background-color: rgba(255, 255, 255, 0);
   font-family: "quicksand";
   src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
   font-size: 18px;
@@ -106,7 +136,52 @@ nav a{
   border: none;
 }
 
-button :hover{
+
+
+#button3 {
+  color: #DB003A;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "quicksand";
+  src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.25px;
+  border: none
+}
+
+#button4 {
+  color: #DB003A;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "quicksand";
+  src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.25px;
+  border: none;
+}
+
+#button5 {
+  color: #DB003A;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "quicksand";
+  src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.25px;
+  margin-left: 100px;
+  border: 0.17rem solid #DB003A;
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+
+
+button :hover {
   color: #ffffff;
   background-color: #04384A;
   font-family: "quicksand";
@@ -116,9 +191,23 @@ button :hover{
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0.25px;
-  padding: 10px 20px;
-  width:100%;
-  max-width: 500px;
+  border: 0rem solid #04384A;
+  border-radius: 5px;
+}
+
+#button5 :hover {
+  color: #ffffff;
+  background-color: #04384A;
+  font-family: "quicksand";
+  src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.25px;
+  border: 0rem solid #04384A;
+  border-radius: 5px;
+
 }
 
 #h2-header {
@@ -129,9 +218,11 @@ button :hover{
   line-height: 38px;
   letter-spacing: 0.25px;
 }
+
 header {
   text-align: center;
 }
+
 #headertext {
   display: flex;
   width: 60%;
@@ -140,6 +231,7 @@ header {
   padding-top: 32px;
   padding-bottom: 40px;
 }
+
 .quote {
   display: flex;
   width: 100%;
@@ -148,6 +240,7 @@ header {
   padding-bottom: 100px;
   background-color: #f3f1f2;
 }
+
 #textquote {
   width: 60%;
   max-width: 700px;
@@ -164,106 +257,113 @@ header {
   letter-spacing: 0.25px;
   text-align: left;
 }
+
 #author {
   margin-top: 90px;
   text-align: right;
   width: 100%;
 }
+
 .container-project {
   width: 1265px;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
 }
+
 .columnleft {
   width: 600px;
 }
+
 .title {
   display: flex;
   align-items: center;
 }
+
 .title img {
   margin-right: 32px;
 }
+
 .projectabstract {
   padding: 20px 100px 100px 0;
 }
 
-.viewcasestudybutton button{
-  color: #DB003A;
-  font-family: "quicksand";
-  src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 23px;
-  letter-spacing: 0.25px;
-  padding: 10px 50px;
-  margin-left: 100px;
-  border: 0.2rem solid #DB003A;
-  border-radius: 5px;
-  margin-top: 70px;
-}
+
 .viewcasestudybutton a {
-  text-decoration: none; 
+  text-decoration: none;
+  color: #DB003A;
 }
+
 .projectimages img {
   height: 350px;
   width: 500px;
 }
+
 .viewmywork {
   align-content: center;
 }
+
 .container-article {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .projectimages {
   width: 599px;
   height: 444px;
 }
+
 #chevrondoble {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 32px;
 }
+
 .icon {
   text-align: center;
 }
+
 #seebelow {
   display: flex;
   justify-content: center;
 }
+
 .mariauxuidesigner {
   width: 100%;
   padding-top: 32px;
   padding-bottom: 30px;
   background-color: #f3f1f2;
 }
-#bio{
+
+#bio {
   width: 1200px;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
 }
+
 .mybio {
   padding-top: 30px;
 }
+
 #maria-arranz-bio {
   text-align: left;
   width: 528px;
 }
-#foto_maria_arranz {  
+
+#foto_maria_arranz {
   margin-top: 50px;
   width: 405px;
 }
+
 #maria-profile {
-  height: 1100px;
+  height: 1000px;
   width: 1440px;
   left: 6px;
   top: 3590px;
 }
+
 .contact-me {
   display: flex;
   justify-content: space-between;
@@ -275,16 +375,19 @@ header {
   padding-bottom: 70px;
   background-color: #f3f1f2;
 }
+
 #slogan {
   text-align: center;
   width: 70%;
   max-width: 900px;
   padding-top: 30px;
 }
+
 #howto {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 #contactreferences {
   display: flex;
   justify-content: space-between;
@@ -293,13 +396,16 @@ header {
   align-items: center;
   padding-bottom: 30px;
 }
+
 #contactreferences a {
   text-decoration: none;
   color: #04384A;
 }
+
 footer {
   text-align: center;
 }
+
 #footer {
   display: flex;
   justify-content: space-between;
@@ -310,20 +416,23 @@ footer {
   padding-top: 20px;
   padding-bottom: 40px;
 }
+
 #hearticon img {
   text-align: center;
   width: 50px;
   height: 50px;
 }
-#oceanoapaisado {  
+
+#oceanoapaisado {
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
+
 #gobacktopreviouspage a {
   text-decoration: none;
   color: #f3f1f2;
@@ -332,45 +441,74 @@ footer {
   border-radius: 5px;
   display: inline-block;
 }
+
+.h3-backsoon {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  max-width: 800px;
+  padding-top: 10px;
+  color: #f3f1f2
+}
+
+#h3-backsoon {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  max-width: 800px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  color: #f3f1f2
+}
+
+
 .h4-backsoon {
   text-align: center;
   width: 90%;
   max-width: 700px;
   margin: auto;
   padding-top: 250px;
-  color:#f3f1f2
+  color: #f3f1f2
 }
 
-.h3-backsoon {
+
+
+#h3-apologize {
   display: flex;
   justify-content: center;
   width: 60%;
-  margin:auto;
+  margin: auto;
   max-width: 800px;
-  padding-top: 10px;
-  color:#f3f1f2
-}
-#h3-backsoon {
-  display: flex;
-  justify-content: center;
-  width: 60%;
-  margin:auto;
-  max-width: 800px;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 50px;
-  color:#f3f1f2
-
+  color: #f3f1f2
 }
 
 #gobackbutton {
   padding: 10px 30px;
+  background-color: #ffffff;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   width: 100%;
-  margin:auto;
+  margin: auto;
   max-width: 300px;
   padding-top: 10px;
+}
+#gobackbutton :hover{
+  padding: 10px 30px;
+  color:#ffffff;
+  background-color: #04384A;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  max-width: 300px;
+  padding-top: 10px;
+
 }
 
 #gobackbutton a {
@@ -383,16 +521,7 @@ footer {
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 0.25px;
-  
-}
-#h3-apologize {
-  display: flex;
-  justify-content: center;
-  width: 60%;
-  margin:auto;
-  max-width: 800px;
-  padding-top: 50px;
-  color:#f3f1f2
+
 }
 
 .wip-container {
@@ -401,50 +530,12 @@ footer {
   background-size: cover;
   height: 100vh;
 }
-#uxui-profile {
-  padding: 105px 105px;
-  width: 105px;
-  border-radius: 500px;
-  border: 2px; color:#D1C9CB;
-  background-color: #D1C9CB;
 
-}
-#education-profile {
-  padding: 120px 120px;
-  width: 120px;
-  border-radius: 500px;
-  border: 2px; color:#D1C9CB;
-  background-color: #D1C9CB;
-}
-#social-innovation-profile {
-  padding: 113px 113px;
-  width: 113px;
-  border-radius: 500px;
-  border: 2px; color:#D1C9CB;
-  background-color: #D1C9CB;
-
-}
-#skills {
-  padding: 80px 80px;
-  width: 80px;
-  border-radius: 500px;
-  border: 2px; color:#D1C9CB;
-  background-color: #D1C9CB;
-}
-#peopleandtalent-profile {
-  padding: 300px 300px;
-  width: 300px;
-  border-radius: 500px;
-  border: 2px; color:#f3f1f2;
-  background-color: #f3f1f2;
-}
-button a {
-  color: #DB003A;
-  text-decoration: none;
-  font-family: "quicksand";
-  src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
- 
-}
-.bubblebutton a{
-  color: #04384A
+#bubbleprofile {
+  text-align: center;
+  width: 70%;
+  max-width: 900px;
+  padding-top: 30px;
+  margin: auto;
+  padding-top: 100px;
 }
